@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+.body{
+	width:100%;
+	height:100%;
+}
+
+.container{
+	background-color: #321effa1;
+	width:80%;
+	padding:20px;
+	margin:10%;
+	border-radius: 38px 10px 110px 10px;
+	-moz-border-radius: 38px 10px 110px 10px;
+	-webkit-border-radius: 38px 10px 110px 10px;
+	border: 0px solid #000000;
+	margin-top:20px;
+	-webkit-box-shadow: 10px 10px 63px 3px rgba(80,80,84,1);
+	-moz-box-shadow: 10px 10px 63px 3px rgba(80,80,84,1);
+	box-shadow: 10px 10px 63px 3px rgba(80,80,84,1);
+}
+
+
+span{
+	color:white;
+}
+.container #title{
+	font-size:35px;
+	font-weight:bold;
+	position:relative;
+	left:45%;
+	cursor:pointer;
+	opacity:0.7;
+}
+container #title:hover{
+	color:yellow;
+}
+
+
+form{
+	display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-left: 20px;
+    align-items: center;
+}
+form .check{
+	display:flex;
+	flex-direction:column;
+}
+form input{
+	border-radius: 4px;
+    border: 2px solid #ffffff70;
+	padding:10px;
+	margin:5px;
+}
+form input-group{
+	width:100%;
+}
+form  #btn{
+	color:#8156bb;
+	font-weight:bold;
+	text-transform:uppercase;
+	width:40%;
+	font-size:20px;
+	border:none;
+	transition-delay:400ms,500ms;
+	transition-duration:700ms;
+	transition-property:border-radius,width;
+}
+form #btn:hover{
+	width:35%;
+	border-radius: 10px 86px 0px 89px;
+	-moz-border-radius: 10px 86px 0px 89px;
+	-webkit-border-radius: 10px 86px 0px 89px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: inset 3px 18px 179px -6px rgba(40,34,156,1);
+	-moz-box-shadow: inset 3px 18px 179px -6px rgba(40,34,156,1);
+	box-shadow: inset 3px 18px 179px -6px rgba(40,34,156,1);
+	color:white;
+}
+
+.check .check-group{
+	margin:10px;
+	display:flex;
+	flex-direction:row;
+}
+
+
+.fade-message{
+    font-family: monospace;
+    padding: 5px 10px;
+    position: absolute;
+    display:block;
+    text-transform: uppercase;
+    font-size: 15px;
+    bottom: 50px;
+    color: white;
+    right: 14px;
+    background-color:#ff4141e6;
+    opacity:1;
+    cursor: pointer;
+    border-left: 4px solid green;
+    border-radius: 4px;
+    max-width: 30%;
+    max-height: 15%;
+    animation-name: slide;
+    overflow: hidden;
+    animation-duration: 8s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-out;
+    box-shadow: 3px 3px 5px black;
+    transform: translateX(400px);
+    -webkit-box-shadow: -18px 5px 39px 18px rgba(207,207,207,1);
+-moz-box-shadow: -18px 5px 39px 18px rgba(207,207,207,1);
+box-shadow: -18px 5px 39px 18px rgba(207,207,207,1);
+}
+.fade-message.green{
+background-color:green;}
+
+
+@keyframes slide{
+	0%{
+	    transform: translateX(300px);
+	}
+	50%{
+	    transform: translateX(-20px);
+	
+	}
+	100%{
+	    transform: translateX(300px);
+	    display:none;
+	
+	}
+  }
+  
