@@ -1,0 +1,6 @@
+mongo
+use student
+show dbs;
+db.createCollection("students");
+
+db.student.aggregate({$match:{dept_name:"cse"}},{$group:{_id:"$semester",avg_cgpa:{$avg:"$cgpa"}}},{$match:{avg_cgpa:{$gt:7.5}}})
