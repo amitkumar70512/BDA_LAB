@@ -4,3 +4,6 @@ show dbs;
 db.createCollection("students");
 
 db.student.aggregate({$match:{dept_name:"cse"}},{$group:{_id:"$semester",avg_cgpa:{$avg:"$cgpa"}}},{$match:{avg_cgpa:{$gt:7.5}}})
+
+// export
+mongoexport --host localhost --db student --collection student --type=csv --out  output.csv --fields "USN","semester","Name","dept_name"
