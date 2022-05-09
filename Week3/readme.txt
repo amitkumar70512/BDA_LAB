@@ -1,4 +1,4 @@
-Lab 3  BDA LAB
+### Lab 3  BDA LAB
  
 
 1) Create a database for Students.
