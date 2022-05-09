@@ -1,8 +1,8 @@
 ### BDA_LAB
-💢💢💢💢💢💢💢💢💢
-#Lab Programs(Apr-2022 to July-2022)
-💢💢
-
+💢💢💢💢
+##Lab Programs(Apr-2022 to July-2022)
+💢💢💢💢
+###------------------💢💢💢💢
 
 🔥🔥🔥🔥🔥🔥🔥🔥
 ## Lab 1.    MongoDB- CRUD Demonstration
@@ -56,14 +56,14 @@ column family
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
  
-4. Execution of HDFS Commands for interaction
+## Lab 4. Execution of HDFS Commands for interaction
 with Hadoop Environment. (Minimum 10 commands to be executed)
 
 🔥
 🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 
-5. From the following link extract the weather
+## Lab  5. From the following link extract the weather
 data
 
 https://github.com/tomwhite/hadoop-book/tree/master/input/ncdc/all 
@@ -78,19 +78,19 @@ b) find the mean max temperature for every month
 
 🔥🔥🔥🔥
 
-6.  For a given Text file, Create a Map
+## Lab 6.  For a given Text file, Create a Map
 Reduce program to sort the content in an alphabetic order
 listing only top 10 maximum occurrences of
 words.
 
-7. Create a Map Reduce program to demonstrating
+## Lab 7.  Create a Map Reduce program to demonstrating
 join operation
 
-8. Scala program to print numbers from 1
+## Lab 8. Scala program to print numbers from 1
 to 100 using for loop.
 
 
-9. Using RDD and FlatMap count how many times
+## Lab 9.  Using RDD and FlatMap count how many times
 each word appears in a file and write out a list of words whose count is
 strictly greater than 4 using Spark.
 
