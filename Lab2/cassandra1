@@ -9,11 +9,13 @@ cqlsh> use Employee;
 2. Create a column family by name employee-Info with attributes Emp_Id Primary Key, Emp_Name, Designation, Date_of_Joining, Salary,Dept_Name.
 
 cqlsh:employee> create table Employee_Info(
-            ... Emp_id int Primary key,
+            ... Emp_id int ,
             ... Emp_name text,
             ... Date_of_joining text,
             ... Salary int,
-            ... dept_name text);
+            ... dept_name text,
+            ... primary key((Emp_id),Salary)
+            ... WITH CLUSTERING ORDER BY (Salary ASC));
       
 
 
