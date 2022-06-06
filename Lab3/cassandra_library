@@ -1,0 +1,70 @@
+> use library;
+token@cqlsh:library> create table library_info(
+           ... stud_id text,
+           ... stud_name text,
+           ... book_name text,
+           ... book_id text,
+           ... date_of_issue text,
+           ... counter_value counter,
+           ... primary key((stud_id,book_id),stud_name,book_name,date_of_issue)
+           ... );
+           
+token@cqlsh:library> desc library_info;
+CREATE TABLE library.library_info (
+    stud_id text,
+    book_id text,
+    stud_name text,
+    book_name text,
+    date_of_issue text,
+    counter_value counter,
+    PRIMARY KEY ((stud_id, book_id), stud_name, book_name, date_of_issue)
+) WITH CLUSTERING ORDER BY (stud_name ASC, book_name ASC, date_of_issue ASC)
+    AND additional_write_policy = '99PERCENTILE'
+    AND bloom_filter_fp_chance = 0.01
+    AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+    AND comment = ''
+    AND compaction = {'class': 'org.apache.cassandra.db.compaction.UnifiedCompactionStrategy'}
+    AND compression = {'chunk_length_in_kb': '64', 'class': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND crc_check_chance = 1.0
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair = 'BLOCKING'
+    AND speculative_retry = '99PERCENTILE';
+
+
+
+
+token@cqlsh:library> update library_info set counter_value=counter_value+1 where stud_id='1bm19cs015' and stud_name='amit' and book_name='unknown reasons' and  book_id='uu9990' and date_of_issue='09-08-2020';
+token@cqlsh:library> 
+token@cqlsh:library> 
+token@cqlsh:library> select * from library_info;
+
+ stud_id    | book_id | stud_name | book_name       | date_of_issue | counter_value
+------------+---------+-----------+-----------------+---------------+---------------
+ 1bm19cs015 |  uu9990 |      amit | unknown reasons |    09-08-2020 |             1
+
+(1 rows)
+token@cqlsh:library> update library_info set counter_value=counter_value+1 where stud_id='1bm19cs008' and stud_name='aishwarya' and book_name='Difficult things in a easy way' and  book_id='u2f9990' and date_of_issue='09-08-2024';
+token@cqlsh:library> 
+token@cqlsh:library> update library_info set counter_value=counter_value+1 where stud_id='1bm19cs012' and stud_name='akshay' and book_name='mind reading' and  book_id='d8v339' and date_of_issue='19-03-2022';
+
+[
+NOTE:: 
+  token@cqlsh:library> begin batch update library_info set counter_value=counter_value+1 where stud_id='1bm19cs012' and stud_name='akshay' and book_name='mind reading' and  book_id='d8v339' and date_of_issue='19-03-2022'; apply batch;
+  InvalidRequest: Error from server: code=2200 [Invalid query] message="Cannot include a counter statement in a logged batch"
+]
+
+token@cqlsh:library> select * from library_info;
+
+ stud_id    | book_id | stud_name | book_name                      | date_of_issue | counter_value
+------------+---------+-----------+--------------------------------+---------------+---------------
+ 1bm19cs008 | u2f9990 | aishwarya | Difficult things in a easy way |    09-08-2024 |             1
+ 1bm19cs012 |  d8v339 |    akshay |                   mind reading |    19-03-2022 |             1
+ 1bm19cs015 |  uu9990 |      amit |                unknown reasons |    09-08-2020 |             1
+
+(3 rows)
+
+
