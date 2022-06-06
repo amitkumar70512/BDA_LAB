@@ -1,0 +1,21 @@
+// start hadoop (must be in hduser)
+$ start-all.sh
+
+// creating a directory inside hadoop -mkdir
+$ hdfs dfs -mkdir /bda_hadoop
+
+// listing all content inside hadoop  - ls
+$ hadoop fs -ls /
+
+// copyig files from deskop using put command - put
+$ hdfs dfs -put /home/hduser/Desktop/bda_local.txt /bda_hadoop/file.txt
+
+// cat command(listing the content of file in hadoop) -cat
+$ hdfs dfs -cat /bda_hadoop/file.txt
+
+// copying files from local reference using copyFromLocal cmd.
+
+$ hdfs dfs -copyFromLocal /home/hduser/Desktop/bda_local.txt /bda_hadoop/file_cp_local.txt
+
+$ hdfs dfs -cat /bda_hadoop/file_cp_local.txt
+
