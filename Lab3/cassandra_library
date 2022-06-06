@@ -80,3 +80,17 @@ token@cqlsh:library> select * from library_info;
 
 
 
+
+
+--> (export the created column to csv)
+
+$token@cqlsh:library> copy library_info(counter_value,stud_id,stud_name,book_name,book_id,data_of_issue) to 'c:\users\desktop\college\bda\lab3\file.csv' WITH HEADER = TRUE;
+
+
+--> (import csv file to cassandra from local storage)
+
+token@cqlsh:library> copy library_info_duplicate from 'c:\users\desktop\college\bda\lab3\file.csv' WITH HEADER = TRUE;
+
+
+
+
