@@ -81,6 +81,14 @@ token@cqlsh:library> select * from library_info;
 
 
 
+token@cqlsh:library> select * from library_info where counter_value=2 and book_name='bda'  allow filtering;
+
+ stud_id    | book_id | stud_name | book_name | date_of_issue | counter_value
+------------+---------+-----------+-----------+---------------+---------------
+ 1bm19cs022 |  dvt543 |    anisha |       bda |    17-04-2022 |             2
+
+
+
 
 --> (export the created column to csv)
 
