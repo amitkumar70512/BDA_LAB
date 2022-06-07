@@ -29,11 +29,12 @@ Write MongoDB queries for the following:
 2.      To display only the student name, grade as well as the identifier from the document of the Student collection where the _id column is 1.
 3.      To find those documents where the grade is not set to VIII.
 4.      To find those documents from the Students collection where the hobbies is set to ’cricket’ and the student name is set to ‘varun’.
- 5.To find documents from the Students collection where the student name  ends in ‘j’
+5.      To find documents from the Students collection where the student name  ends in ‘j’
 
 ---------------------
-## 4) Create a database for Faculty and Create a Faculty Collection (Faculty_id, Name, Designation ,Department, Age, Salary, Specialization(Set)).
+## 4) Create a database for Faculty 
 
+i)Create a Faculty Collection (Faculty_id, Name, Designation ,Department, Age, Salary, Specialization(Set)).
 ii) Insert required documents to the collection.
 iii) First Filter on “Dept_Name:MECH” and then group it on “Designation” and
 compute the Average Salary for that Designation and filter those
@@ -52,7 +53,7 @@ Write MongoDB queries for the following:
 2)To display only the Product ID, Expiry Date as well as the quantity from the document of the product collection where the _id column is 1.
 3)To find those documents where the price is not set to 45000.
 4)To find those documents from the Product collection where the quantity is set to 30    and the product name is set to ‘LEDTV’.
- 5)To find documents from the Product collection where the Products ends in ‘r’.
+5)To find documents from the Product collection where the Products ends in ‘r’.
 
 ## 6)Create a mongodb collection Hospital. Demonstrate the following by choosing fields of   your choice.
 1.      Insert three documents
