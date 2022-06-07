@@ -1,7 +1,7 @@
-### Lab 3  BDA LAB
+# mongo practice 
  
 
-1) Create a database for Students.
+## 1) Create a database for Students.
 
 i)Create a Student Collection (_id, Name, USN,
 Semester, Dept_Name, CGPA, Hobbies(Set)).
@@ -11,14 +11,14 @@ compute the Average CPGA for that semester and filter those documents where the 
 iv)Command used to export MongoDB JSON documents from “Student” Collection into the “Students” database into a CSV file “Output.txt”.
  
 --------------------
-2)  Create a mongodb collection Bank. Demonstrate the following by choosing fields of your choice.
+## 2)  Create a mongodb collection Bank. Demonstrate the following by choosing fields of your choice.
 1.      Insert three documents
 2.      Use Arrays(Use Pull and Pop operation)
 3.      Use Index
 4.      Use Cursors
 5.      Updation
 --------------------
-3)  Consider a table “Students ” with the following columns:
+## 3)  Consider a table “Students ” with the following columns:
      StudRollNo / _id
      StudName
      Grade
@@ -32,7 +32,7 @@ Write MongoDB queries for the following:
  5.To find documents from the Students collection where the student name  ends in ‘j’
 
 ---------------------
-4) Create a database for Faculty and Create a Faculty Collection (Faculty_id, Name, Designation ,Department, Age, Salary, Specialization(Set)).
+## 4) Create a database for Faculty and Create a Faculty Collection (Faculty_id, Name, Designation ,Department, Age, Salary, Specialization(Set)).
 
 ii) Insert required documents to the collection.
 iii) First Filter on “Dept_Name:MECH” and then group it on “Designation” and
@@ -41,7 +41,7 @@ documents where the “Avg_Sal” is greater than 650000.
 iv) Demonstrate usage of import and export commands
 
 ---------------------
-5) Consider a table “Product” with the following columns:
+## 5) Consider a table “Product” with the following columns:
 Product _id
 ProductName
 Manufacturing Date
@@ -54,7 +54,7 @@ Write MongoDB queries for the following:
 4)To find those documents from the Product collection where the quantity is set to 30    and the product name is set to ‘LEDTV’.
  5)To find documents from the Product collection where the Products ends in ‘r’.
 
-6)Create a mongodb collection Hospital. Demonstrate the following by choosing fields of   your choice.
+## 6)Create a mongodb collection Hospital. Demonstrate the following by choosing fields of   your choice.
 1.      Insert three documents
 2.      Use Arrays(Use Pull and Pop operation)
 3.      Use Index
