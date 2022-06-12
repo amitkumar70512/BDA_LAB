@@ -57,18 +57,16 @@ column family
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
  
-## Lab 4. Execution of HDFS Commands for interaction
-with Hadoop Environment. (Minimum 10 commands to be executed)
+## Lab 4. Execution of HDFS Commands for interaction with Hadoop Environment. (Minimum 10 commands to be executed)
 
 🔥
 🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 
-## Lab  5. From the following link extract the weather
-data
+## Lab  5. From the following link extract the weather data
 
 https://github.com/tomwhite/hadoop-book/tree/master/input/ncdc/all 
-Create a Map
+ Create a Map
 
 Reduce program to
 
@@ -84,16 +82,12 @@ Reduce program to sort the content in an alphabetic order
 listing only top 10 maximum occurrences of
 words.
 
-## Lab 7.  Create a Map Reduce program to demonstrating
-join operation
+## Lab 7.  Create a Map Reduce program to demonstrating join operation.
 
-## Lab 8. Scala program to print numbers from 1
-to 100 using for loop.
+## Lab 8. Scala program to print numbers from 1 to 100 using for loop.
 
 
-## Lab 9.  Using RDD and FlatMap count how many times
-each word appears in a file and write out a list of words whose count is
-strictly greater than 4 using Spark.
+## Lab 9.  Using RDD and FlatMap count how many times each word appears in a file and write out a list of words whose count is strictly greater than 4 using Spark.
 
 
  
@@ -102,8 +96,6 @@ strictly greater than 4 using Spark.
 ## Open Ended Questions
 
 
-1.    
-Install Hadoop on Windows/Ubuntu
+1.    Install Hadoop on Windows/Ubuntu
 
-2.    
-Install Spark on Windows/Ubuntu
+2.    Install Spark on Windows/Ubuntu
