@@ -5,6 +5,7 @@ hduser@bmsce-Precision-T1700:~/amit_015$ su hduser
 Password: 
 
 hduser@bmsce-Precision-T1700:~/amit_015$ cd ..
+
 hduser@bmsce-Precision-T1700:~$ cd /usr/local/hadoop/sbin
 hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ 
 hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ 
@@ -22,6 +23,7 @@ starting yarn daemons
 starting resourcemanager, logging to /usr/local/hadoop/logs/yarn-hduser-resourcemanager-bmsce-Precision-T1700.out
 hduser@localhost's password: 
 localhost: starting nodemanager, logging to /usr/local/hadoop/logs/yarn-hduser-nodemanager-bmsce-Precision-T1700.out
+
 hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ 
 hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ jps
 9668 Jps
