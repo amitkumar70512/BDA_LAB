@@ -134,29 +134,30 @@ hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ hadoop fs -ls /output/part-
 
 hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ hadoop fs -cat /output/part-00000
 
-# 	11
-# A	1
-# H	2
-# I	1
-# J	1
-# P	1
-# W	2
-# a	4
-# c	2
-# d	1
-# e	9
-# f	1
-# g	2
-# h	1
-# i	2
-# k	1
-# l	5
-# m	7
-# n	1
-# o	7
-# r	5
-# s	1
-# t	4
-# u	1
-# v	1
-# w	1
+# output
+ 	
+### A	1
+### H	2
+###  I	1
+### J	1
+### P	1
+### W	2
+### a	4
+### c	2
+### d	1
+### e	9
+### f	1
+### g	2
+### h	1
+### i	2
+### k	1
+### l	5
+### m	7
+### n	1
+### o	7
+### r	5
+### s	1
+### t	4
+### u	1
+### v	1
+### w	1
