@@ -7,10 +7,11 @@ Password:
 hduser@bmsce-Precision-T1700:~/amit_015$ cd ..
 
 hduser@bmsce-Precision-T1700:~$ cd /usr/local/hadoop/sbin
-hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ 
-hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ 
+
 hduser@bmsce-Precision-T1700:/usr/local/hadoop/sbin$ start-all.sh
+
 This script is Deprecated. Instead use start-dfs.sh and start-yarn.sh
+
 Starting namenodes on [localhost]
 hduser@localhost's password: 
 localhost: starting namenode, logging to /usr/local/hadoop/logs/hadoop-hduser-namenode-bmsce-Precision-T1700.out
