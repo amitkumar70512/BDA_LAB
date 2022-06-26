@@ -99,5 +99,6 @@ words.
 
 
 1.    Install Hadoop on Windows/Ubuntu
-
+  #### https://youtu.be/g7Qpnmi0Q-s
+  
 2.    Install Spark on Windows/Ubuntu
