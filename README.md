@@ -6,12 +6,12 @@
 
 🔲🔲🔲🔲
 ## Lab 1.    MongoDB- CRUD Demonstration
-### source code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab1
+###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab1
 </br>
 
 🔲🔲🔲🔲
 ## Lab 2.    Perform the following DB operations using Cassandra.
-### source code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab2
+###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab2
 
 1.Create a keyspace by name Employee
 2. Create a column family by name
@@ -39,7 +39,7 @@ values of Employees.
 
 🔲🔲🔲🔲
 ## Lab 3. Perform the following DB operations using Cassandra.
-### source code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab3      
+###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab3      
 <br/>
 1.Create a keyspace by name Library.       
 2. Create a column family by name Library-Info with attributes
@@ -59,18 +59,17 @@ column family
 🔲🔲🔲🔲
  
 ## Lab 4. Execution of HDFS Commands for interaction with Hadoop Environment. (Minimum 10 commands to be executed)
-### source code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab4
+###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab4
 
 
 🔲🔲🔲🔲
 
 
 ## Lab  5. From the following link extract the weather data
-### source code:
-https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5
-#### ncdc dataset source :
-🔗🔗🔗 https://github.com/tomwhite/hadoop-book/tree/master/input/ncdc/all 
- <br/>
+###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5 
+<br/>
+#### ncdc dataset source :🔗🔗🔗 https://github.com/tomwhite/hadoop-book/tree/master/input/ncdc/all 
+<br/>
  Create a Map Reduce program to
 a) find average temperature for each year from NCDC data set.
 b) find the mean max temperature for every month
@@ -79,14 +78,17 @@ b) find the mean max temperature for every month
 🔲🔲🔲🔲
 
 ## Lab 6.  For a given Text file, Create a Map Reduce program to sort the content in an alphabetic orderlisting only top 10 maximum occurrences of words.
+### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab6/TopN 
 <br/>
 
 ## Lab 7.  Create a Map Reduce program to demonstrating join operation.
-source code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5/MapReduceJoin
-<br/><br/>
+### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab7/MapReduceJoin
+<br/>
+
 🔲🔲🔲🔲
 ## Lab 8. Scala program to print numbers from 1 to 100 using for loop.
-<br/><br/>
+<br/>
+<br/>
 🔲🔲🔲🔲
 ## Lab 9.  Using RDD and FlatMap count how many times each word appears in a file and write out a list of words whose count is strictly greater than 4 using Spark.
 <br/><br/>
