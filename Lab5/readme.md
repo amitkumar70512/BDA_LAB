@@ -1,9 +1,6 @@
-## Word count
-### source link: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5/word_count
 
-## TopN
-### source link: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5/TopN
-
-## Map ReduceJoin
-### source link:   https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5/MapReduceJoin
-
+##Create a Map Reduce program to 
+<br/>
+a) find average temperature for each year from NCDC data set.
+<br/>
+b) find the mean max temperature for every month
