@@ -1,0 +1,54 @@
+// start hadoop (must be in hduser)
+$ start-all.sh
+
+// creating a directory inside hadoop -mkdir
+$ hdfs dfs -mkdir /bda_hadoop
+
+// listing all content inside hadoop  - ls
+$ hadoop fs -ls /
+
+// copyig files from deskop using put command - put
+$ hdfs dfs -put /home/hduser/Desktop/bda_local.txt /bda_hadoop/file.txt
+
+// cat command(listing the content of file in hadoop) -cat
+$ hdfs dfs -cat /bda_hadoop/file.txt
+
+// copying files from local reference using copyFromLocal cmd.
+
+$ hdfs dfs -copyFromLocal /home/hduser/Desktop/bda_local.txt /bda_hadoop/file_cp_local.txt
+
+$ hdfs dfs -cat /bda_hadoop/file_cp_local.txt
+
+// get command
+
+$ hdfs dfs -get /bda_hadoop/file.txt /home/hduser/Downloads/downloaded_file.txt
+
+$ hdfs dfs -getmerge /bda_hadoop/file.txt /bda_hadoop/file_cp_local.txt /home/hduser/Downloads/downloaded_file.txt
+
+$ hadoop fs -getfacl /bda_hadoop/
+# file: /bda_hadoop
+# owner: hduser
+# group: supergroup
+user::rwx
+group::r-x
+other::r-x
+
+// copyToLocal 
+
+$ hdfs dfs -copyToLocal /bda_hadoop/file.txt /home/hduser/Desktop
+
+// mv command
+
+$ hadoop fs -mv /bda_hadoop /abc
+
+$ hadoop fs -ls /abc
+
+Found 1 items
+drwxr-xr-x   - hduser supergroup          0 2022-06-06 11:52 /abc/bda_hadoop
+
+
+
+
+// copy
+
+$ hadoop fs -cp /hello/ /hadoop_lab
