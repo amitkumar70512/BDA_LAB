@@ -1,15 +1,14 @@
 # BDA LAB -- under guidance of Pallavi gb 
-💢💢💢💢
+<hr>
 ## Lab Programs(Apr-2022 to July-2022)
-📘📘📘📘📘📘
-##
+<br/>
+<hr>
 
-🔲🔲🔲🔲
 ## Lab 1.    MongoDB- CRUD Demonstration
 ###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab1
 </br>
+<hr>
 
-🔲🔲🔲🔲
 ## Lab 2.    Perform the following DB operations using Cassandra.
 ###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab2
 
@@ -22,8 +21,8 @@
 7. Update the altered table to add project names.
 8. Create a TTL of 15 seconds to display the values of Employees.
 </br>
+<hr>
 
-🔲🔲🔲🔲
 ## Lab 3. Perform the following DB operations using Cassandra.
 ###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab3      
 <br/>
@@ -40,20 +39,18 @@
 7. Import a given csv dataset from local file system into Cassandra column family.<br/>
 
 <br/>
-🔲🔲🔲🔲
+<hr>
 
 ## Lab 4.  Screenshots of Hadoop installed
 ### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab4
-
-🔲🔲🔲🔲
 <br/>
+<hr>
+
  
 ## Lab 5. Execution of HDFS Commands for interaction with Hadoop Environment. (Minimum 10 commands to be executed)
 ###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5
-
-
-🔲🔲🔲🔲
-
+<br/>
+<hr>
 
 ## Lab  6. From the following link extract the weather data
 ###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab6
@@ -64,34 +61,35 @@ Create a Map Reduce program to<br/>
 a) find average temperature for each year from NCDC data set.<br/>
 b) find the mean max temperature for every month. <br/>
 <br/>
-
-🔲🔲🔲🔲
+<hr>
 
 ## Lab 7.  For a given Text file, Create a Map Reduce program to sort the content in an alphabetic orderlisting only top 10 maximum occurrences of words.
 ### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab7/TopN 
 <br/>
+<hr>
 
 ## Lab 8.  Create a Map Reduce program to demonstrating join operation.
 ### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab8/MapReduceJoin
 <br/>
+<hr>
 
-🔲🔲🔲🔲
 ## Lab 9.Program to print word count on scala shell and print "Hello World" on scala IDE.
 ### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab9
 <br/>
 <br/>
+<hr>
 
-🔲🔲🔲🔲
 ## Lab 10.  Using RDD and FlatMap count how many times each word appears in a file and write out a list of words whose count is strictly greater than 4 using Spark.
 
 <br/>
-<br/>
+<hr>
+
 
  
 🔲🔲🔲🔲🔲🔲🔲🔲
 
 # Open Ended Questions
-
+<hr>
 
 ## 1.    Install Hadoop on Windows/Ubuntu
 ###   https://youtu.be/g7Qpnmi0Q-s (installation on windows)
@@ -108,6 +106,7 @@ b) find the mean max temperature for every month. <br/>
 <br/>c:\hadoop>sbin\start-yarn
 <br/>  starting yarn daemons
 
-<br/><br/><br/>
+<br/>
+<hr>
 
 ## 2.    Install Spark on Windows/Ubuntu
