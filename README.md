@@ -71,6 +71,7 @@ b) find the mean max temperature for every month. <br/>
 
 🔲🔲🔲🔲
 ## Lab 8. Scala program to print numbers from 1 to 100 using for loop.
+### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab8
 <br/>
 <br/>
 
