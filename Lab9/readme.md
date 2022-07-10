@@ -14,7 +14,7 @@ $ hdfs dfs -mkdir /spark
 
 ### Upload the sparkdata.txt file on HDFS in the specific directory.
 <br/>
-$ hdfs dfs -put /home/codegyani/sparkdata.txt /spark  
+$ hdfs dfs -put /home/amit/sparkdata.txt /spark  
 <br/>
 <hr>
 
