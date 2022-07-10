@@ -41,16 +41,22 @@
 
 <br/>
 🔲🔲🔲🔲
+
+## Lab 4.  Screenshots of Hadoop installed
+### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab4
+
+🔲🔲🔲🔲
+<br/>
  
-## Lab 4. Execution of HDFS Commands for interaction with Hadoop Environment. (Minimum 10 commands to be executed)
-###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab4
+## Lab 5. Execution of HDFS Commands for interaction with Hadoop Environment. (Minimum 10 commands to be executed)
+###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5
 
 
 🔲🔲🔲🔲
 
 
-## Lab  5. From the following link extract the weather data
-###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab5 
+## Lab  6. From the following link extract the weather data
+###  code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab6
 <br/>
 #### ncdc dataset source :🔗🔗🔗 https://github.com/tomwhite/hadoop-book/tree/master/input/ncdc/all 
 <br/>
@@ -61,22 +67,22 @@ b) find the mean max temperature for every month. <br/>
 
 🔲🔲🔲🔲
 
-## Lab 6.  For a given Text file, Create a Map Reduce program to sort the content in an alphabetic orderlisting only top 10 maximum occurrences of words.
-### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab6/TopN 
+## Lab 7.  For a given Text file, Create a Map Reduce program to sort the content in an alphabetic orderlisting only top 10 maximum occurrences of words.
+### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab7/TopN 
 <br/>
 
-## Lab 7.  Create a Map Reduce program to demonstrating join operation.
-### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab7/MapReduceJoin
-<br/>
-
-🔲🔲🔲🔲
-## Lab 8. Scala program to print numbers from 1 to 100 using for loop.
-### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab8
-<br/>
+## Lab 8.  Create a Map Reduce program to demonstrating join operation.
+### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab8/MapReduceJoin
 <br/>
 
 🔲🔲🔲🔲
-## Lab 9.  Using RDD and FlatMap count how many times each word appears in a file and write out a list of words whose count is strictly greater than 4 using Spark.
+## Lab 9. Scala program to print numbers from 1 to 100 using for loop.
+### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab9
+<br/>
+<br/>
+
+🔲🔲🔲🔲
+## Lab 10.  Using RDD and FlatMap count how many times each word appears in a file and write out a list of words whose count is strictly greater than 4 using Spark.
 
 <br/>
 <br/>
@@ -96,7 +102,8 @@ b) find the mean max temperature for every month. <br/>
  2. Start HDFS (Namenode and Datanode) and YARN (Resource Manager and Node Manager) <br/>
  Run following commands. <br/>
 
-<br/> C:\Users\amit>cd c:\hadoop
+<br/> C:\Users\amit>cd 
+<br/>c:\hadoop
 <br/>c:\hadoop>sbin\start-dfs
 <br/>c:\hadoop>sbin\start-yarn
 <br/>  starting yarn daemons
