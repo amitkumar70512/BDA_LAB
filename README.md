@@ -76,7 +76,7 @@ b) find the mean max temperature for every month. <br/>
 <br/>
 
 🔲🔲🔲🔲
-## Lab 9. Scala program to print numbers from 1 to 100 using for loop.
+## Lab 9.Program to print word count on scala shell and print "Hello World" on scala IDE.
 ### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab9
 <br/>
 <br/>
