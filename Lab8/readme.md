@@ -1,5 +1,7 @@
-<br/><br/>
-## Syntax For loop in Scala: 
+
+## For loop in Scala:<br/>
+## Syntax 
+ 
 <br/>
 for(w <- range){<br/>
 // Code..<br/>
