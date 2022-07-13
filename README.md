@@ -80,7 +80,7 @@ b) find the mean max temperature for every month. <br/>
 <hr>
 
 ## Lab 10.  Using RDD and FlatMap count how many times each word appears in a file and write out a list of words whose count is strictly greater than 4 using Spark.
-
+### code: https://github.com/amitkumar70512/BDA_LAB/tree/main/Lab10
 <br/>
 <hr>
 
